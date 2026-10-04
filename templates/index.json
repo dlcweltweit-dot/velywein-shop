@@ -1,0 +1,317 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_hero": {
+          "type": "heading",
+          "settings": {
+            "heading": "와인 한 잔이 남기는 여운",
+            "heading_size": "h0"
+          }
+        },
+        "text_hero": {
+          "type": "text",
+          "settings": {
+            "text": "마시는 순간보다, 마시고 난 뒤에 남는 은은한 여운이 좋은 와인의 기준입니다.",
+            "text_style": "body"
+          }
+        },
+        "buttons_hero": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "와인 둘러보기",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "브랜드 스토리",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_hero",
+        "text_hero",
+        "buttons_hero"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/rows-of-a-vineyard-on-a-sunny-day.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "collection_grid": {
+      "type": "collection-list",
+      "blocks": {
+        "col_red": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "레드와인"
+          }
+        },
+        "col_white": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "화이트와인"
+          }
+        },
+        "col_rose": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "로제와인"
+          }
+        },
+        "col_sparkling": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "스파클링"
+          }
+        },
+        "col_whiskey": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "위스키"
+          }
+        }
+      },
+      "block_order": [
+        "col_red",
+        "col_white",
+        "col_rose",
+        "col_sparkling",
+        "col_whiskey"
+      ],
+      "settings": {
+        "title": "컬렉션",
+        "heading_size": "hxl",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 24
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 4,
+        "title": "지금 만나보는 와인",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "text",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 68
+      }
+    },
+    "philosophy": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_philosophy": {
+          "type": "caption",
+          "settings": {
+            "caption": "BRAND STORY",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_philosophy": {
+          "type": "heading",
+          "settings": {
+            "heading": "좋은 여운이 좋은 와인입니다",
+            "heading_size": "h0"
+          }
+        },
+        "text_philosophy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Velywein은 벨벳처럼 부드러운 감촉을 뜻하는 Vely와 독일어로 와인을 뜻하는 Wein이 만나 탄생한 이름입니다. 마시는 순간의 화려함보다, 마시고 난 뒤 은은하게 남는 여운이 좋은 와인의 진짜 기준이라 믿습니다.</p>"
+          }
+        },
+        "button_philosophy": {
+          "type": "button",
+          "settings": {
+            "button_label": "브랜드 스토리 보기",
+            "button_link": "shopify://pages/about",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "caption_philosophy",
+        "heading_philosophy",
+        "text_philosophy",
+        "button_philosophy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "wine_types": {
+      "type": "multicolumn",
+      "blocks": {
+        "type_red": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/red-wine-glass-on-table.jpg",
+            "title": "레드와인",
+            "text": "<p>탄닌의 깊이와 과실향의 조화가 만드는 진한 여운. 카베르네 소비뇽부터 피노 누아까지, 스테이크와 육류 요리에 잘 어울리는 묵직한 바디감의 레드와인을 소개합니다.</p>",
+            "link_label": "컬렉션 보기",
+            "link": "shopify://collections/레드와인"
+          }
+        },
+        "type_white": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/white-wine-glass-closeup.jpg",
+            "title": "화이트와인",
+            "text": "<p>상큼한 산미와 은은한 과일 향이 살아있는 청량한 한 잔. 샤르도네, 소비뇽 블랑 등 가볍고 신선한 화이트와인은 해산물과 가벼운 안주에 특히 잘 어울립니다.</p>",
+            "link_label": "컬렉션 보기",
+            "link": "shopify://collections/화이트와인"
+          }
+        },
+        "type_rose": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rose-wine-glasses-glowing.jpg",
+            "title": "로제와인",
+            "text": "<p>핑크빛 컬러만큼 사랑스러운 산뜻한 밸런스. 레드와 화이트의 장점을 모두 담아, 더운 계절 야외 다이닝과 브런치 자리를 한층 화사하게 만들어줍니다.</p>",
+            "link_label": "컬렉션 보기",
+            "link": "shopify://collections/로제와인"
+          }
+        },
+        "type_sparkling": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/champagne-glasses-pour.jpg",
+            "title": "스파클링",
+            "text": "<p>기포가 터지는 순간 시작되는 축하의 시간. 샴페인부터 프로세코까지, 특별한 날을 더욱 빛나게 만들어주는 스파클링 와인을 준비했습니다.</p>",
+            "link_label": "컬렉션 보기",
+            "link": "shopify://collections/스파클링"
+          }
+        },
+        "type_whiskey": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/whiskey-tasting-glass.jpg",
+            "title": "위스키",
+            "text": "<p>오크통에서 오랜 시간 숙성된 깊고 복합적인 풍미. 스모키한 싱글몰트부터 부드러운 블렌디드까지, 여운이 긴 위스키 컬렉션을 만나보세요.</p>",
+            "link_label": "컬렉션 보기",
+            "link": "shopify://collections/위스키"
+          }
+        }
+      },
+      "block_order": [
+        "type_red",
+        "type_white",
+        "type_rose",
+        "type_sparkling",
+        "type_whiskey"
+      ],
+      "settings": {
+        "title": "와인 카테고리 가이드",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "closing_cta": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_cta": {
+          "type": "heading",
+          "settings": {
+            "heading": "Velywein의 셀렉션 만나보세요",
+            "heading_size": "h0"
+          }
+        },
+        "text_cta": {
+          "type": "text",
+          "settings": {
+            "text": "엄선된 와인과 위스키, 지금 바로 둘러보세요.",
+            "text_style": "body"
+          }
+        },
+        "buttons_cta": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "전체 컬렉션 보기",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cta",
+        "text_cta",
+        "buttons_cta"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/wine-shop-bottle-shelf.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "collection_grid",
+    "featured-collection",
+    "philosophy",
+    "wine_types",
+    "closing_cta"
+  ]
+}
